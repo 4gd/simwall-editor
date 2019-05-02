@@ -13,4 +13,10 @@ instance/
 # Environments
 venv/
 
+# DB
 test.db
+
+# Namecheap
+.htaccess
+passenger_wsgi.py
+tmp/
