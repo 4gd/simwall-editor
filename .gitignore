@@ -12,6 +12,7 @@ instance/
 
 # Environments
 venv/
+.vscode/
 
 # DB
 test.db
@@ -20,3 +21,6 @@ test.db
 .htaccess
 passenger_wsgi.py
 tmp/
+
+# Environemnt variables
+.env
