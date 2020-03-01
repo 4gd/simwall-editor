@@ -14,23 +14,39 @@ class Layout(db.Model):
     name = db.Column(db.String(80), unique=True, nullable=False, index=True)
     width = db.Column(db.Integer, nullable=False)
     height = db.Column(db.Integer, nullable=False)
-    layout = db.Column(db.Text, nullable=False)
+    panels = db.Column(db.Text, nullable=False)
 
     def to_dict(self):
         return {
             "name": self.name,
             "width": self.width,
             "height": self.height,
-            "layout": json.loads(self.layout)
+            "panels": json.loads(self.panels)
         }
     
     def from_dict(self, data):
-        for field in ['name', 'width', 'height', 'layout']:
+        for field in ['name', 'width', 'height', 'panels']:
             if field in data:
                 setattr(self, field, data[field])
 
     def __repr__(self):
         return f'<Layout {self.name}>'
+
+@app.shell_context_processor
+def make_shell_context():
+    return {'db': db, 'Layout': Layout}
+
+@app.before_first_request
+def setup_default_layouts():
+    with open("example_layouts.json") as f:
+        layouts = json.load(f)
+    for layout_data in layouts:
+        if not Layout.query.filter_by(name=layout_data['name']).first():
+            layout_data["panels"] = json.dumps(layout_data["panels"])
+            layout = Layout()
+            layout.from_dict(layout_data)
+            db.session.add(layout)
+    db.session.commit()
 
 @app.route('/')
 def index():
@@ -38,17 +54,18 @@ def index():
 
 @app.route('/api/layouts/names', methods=['GET'])
 def get_layout_names():
-    return jsonify([l.name for l in Layout.query.all()])
+    return jsonify({"names": [l.name for l in Layout.query.all()]})
 
 @app.route('/api/layouts/<string:name>', methods=['GET'])
 def get_layout(name):
     layout = Layout.query.filter_by(name=name).first_or_404()
-    return jsonify(layout.to_dict())
+    out = layout.to_dict()
+    return jsonify(out)
 
 @app.route('/api/layouts', methods=['POST'])
 def create_layout():
     data = request.get_json() or {}
-    if 'name' not in data or 'width' not in data or 'height' not in data or 'layout' not in data:
+    if 'name' not in data or 'width' not in data or 'height' not in data or 'panels' not in data:
         return jsonify('Incomplete data'), 400
     if data['name'] == 'names':
         return jsonify('Invalid name'), 400

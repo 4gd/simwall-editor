@@ -67,34 +67,51 @@ function initialize(width, height) {
     }
 
     // Draw Sections and set up click events
-    sections = [];
+    panels = [];
     for (let j = 0; j < height; j++) {
         for(let i = 0; i < width; i++) {
-        let x = draw.rect(SECTION_LENGTH, SECTION_WIDTH).attr({
-            x: i * (PILLAR_SIZE + SECTION_LENGTH) + PILLAR_SIZE,
-            y: j * (PILLAR_SIZE + SECTION_LENGTH),
-        });
-        let y = draw.rect(SECTION_WIDTH, SECTION_LENGTH).attr({
-            x: i * (PILLAR_SIZE + SECTION_LENGTH),
-            y: j * (PILLAR_SIZE + SECTION_LENGTH) + PILLAR_SIZE,
-        });
-        x.attr(SECTION_ATTR);
-        y.attr(SECTION_ATTR);
+            let x = draw.rect(SECTION_LENGTH, SECTION_WIDTH).attr({
+                x: i * (PILLAR_SIZE + SECTION_LENGTH) + PILLAR_SIZE,
+                y: j * (PILLAR_SIZE + SECTION_LENGTH),
+            });
+            let y = draw.rect(SECTION_WIDTH, SECTION_LENGTH).attr({
+                x: i * (PILLAR_SIZE + SECTION_LENGTH),
+                y: j * (PILLAR_SIZE + SECTION_LENGTH) + PILLAR_SIZE,
+            });
+            x.attr(SECTION_ATTR);
+            y.attr(SECTION_ATTR);
 
-        if (i < width - 1) {
-            x.click(function() {
-            let currentColor = this.attr('fill');
-            this.fill(cycleColor(currentColor));
-            });
+            if (i < width - 1) {
+                x.click(function() {
+                let currentColor = this.attr('fill');
+                this.fill(cycleColor(currentColor));
+                });
+            }
+            if (j < height - 1) {
+                y.click(function() {
+                let currentColor = this.attr('fill');
+                this.fill(cycleColor(currentColor));
+                });
+            }
+            // sections.push({'X': x, 'Y': y});
+            panels.push({'x': i, 'y': j, 'horizontal': true, 'type': x});
+            panels.push({'x': i, 'y': j, 'horizontal': false, 'type': y});
         }
-        if (j < height - 1) {
-            y.click(function() {
-            let currentColor = this.attr('fill');
-            this.fill(cycleColor(currentColor));
-            });
-        }
-        sections.push({'X': x, 'Y': y});
-        }
+    }
+}
+
+function getPanelType(panel) {
+    switch (panel.type.attr('fill')) {
+        case NONE_COLOR:
+            return 'None';
+        case WALL_COLOR:
+            return 'Wall';
+        case DOOR_COLOR:
+            return 'Door';
+        case WINDOW_COLOR:
+            return 'Window';
+        default:
+            throw 'Unknown type';
     }
 }
 
@@ -102,30 +119,17 @@ function initialize(width, height) {
  * Replacer function used by JSON.strinify to convert SVG object references into
  * required format
  */ 
-function replacer(name, val) {
-    if(name === 'X' || name === 'Y') {
-        switch (val.attr('fill')) {
-            case NONE_COLOR:
-                return 'None';
-            case WALL_COLOR:
-                return 'Wall';
-            case DOOR_COLOR:
-                return 'Door';
-            case WINDOW_COLOR:
-                return 'Window';
-            default:
-                throw 'Unknown type';
-        }
-    } else if (name !== '') {
-        // Add Name = index as a property (required by unreal format)
-        val.Name = name;
+function replacer(key, val) {
+    if(key === 'type') {
+        return getPanelType(this);
     }
     return val;
 }
 
 function updateLayoutsSelect() {
     $.getJSON(apiBaseURL + 'layouts/names').done(function(data) {
-        let options = data.sort().map(function(name) {
+        let names = data.names;
+        let options = names.sort().map(function(name) {
             return new Option(name, name);
         });
         $('#layouts-select')
@@ -137,6 +141,24 @@ function updateLayoutsSelect() {
     });
 }
 
+function loadLayout(name) {
+    $.getJSON(apiBaseURL + 'layouts/' + name, function(data) {
+        initialize(data.width, data.height);
+        data.panels.forEach(function(panel) {
+            let x = panel.x, y = panel.y, horizontal = panel.horizontal;
+            // 2d to 1d index. Multiply by 2 because horzontal true/false
+            let i = (x + (y * data.width)) * 2;
+            if (!panel.horizontal) {
+                i += 1;
+            }
+            panels[i].type.fill(getColor(panel.type));
+        });
+        $('#save-input').val(name);
+    }).fail(function() {
+        console.log("404: layout not found");
+    });
+}
+
 // Create SVG document
 let draw = SVG('whiteboard')
 
@@ -145,13 +167,13 @@ let sections = [];
 let apiBaseURL = '/api/';
 initialize(INITIAL_WIDTH, INITIAL_HEIGHT);
 updateLayoutsSelect();
-
+// Check for query string default layout
+let params = new URL(location).searchParams;
+if (params.get("name")) {
+    loadLayout(params.get("name"));
+}
 
 // Event Handlers
-$('#out-button').click(() => {
-    console.log(JSON.stringify(sections, replacer, 4));
-})
-
 $('#width-input, #height-input').change(function() {
     let newWidth = $('#width-input').val();
     let newHeight = $('#height-input').val();
@@ -168,7 +190,7 @@ $('#save-button').click(function() {
         'name': $('#save-input').val(),
         'width': $('#width-input').val(),
         'height': $('#height-input').val(),
-        'layout': JSON.stringify(sections, replacer, 4)
+        'panels': JSON.stringify(panels.filter(panel => getPanelType(panel) != "None"), replacer, 4)
     }
     $.ajax({
         url: apiBaseURL + 'layouts',
@@ -178,7 +200,6 @@ $('#save-button').click(function() {
         dataType:"json",
         success: updateLayoutsSelect
     })
-    
 });
 
 $('#delete-button').click(function() {
@@ -192,12 +213,5 @@ $('#delete-button').click(function() {
 
 $('#load-button').click(function() {
     let name = $('#layouts-select').val();
-    $.getJSON(apiBaseURL + 'layouts/' + name, function(data) {
-        initialize(data.width, data.height);
-        data.layout.forEach(function(section, i) {
-            sections[i].X.fill(getColor(section.X));
-            sections[i].Y.fill(getColor(section.Y));
-        });
-        $('#save-input').val(name);
-    });
+    loadLayout(name);
 });

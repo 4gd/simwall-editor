@@ -1,0 +1,1572 @@
+[
+    {
+        "height": 11,
+        "name": "4CC-layout-1", 
+        "panels": [
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 10, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 4, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 10, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 1, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 7, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 4, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 6, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 8, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 4, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 6, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 7
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 2, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 9
+          }
+        ], 
+        "width": 11
+      },
+      {
+        "height": 11, 
+        "name": "4CC-layout-2", 
+        "panels": [
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 1, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 4, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 7, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 10, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 10, 
+            "y": 4
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 2, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 4, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 6, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 8, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 7, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 9
+          }
+        ], 
+        "width": 11
+      },
+      {
+        "height": 15, 
+        "name": "CTCRM-MUC", 
+        "panels": [
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 9, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 11, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 13, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 14, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 16, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 17, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 10, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 11, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 3
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 9, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 4
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 16, 
+            "y": 5
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 17, 
+            "y": 5
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 6
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 6
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 6
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 15, 
+            "y": 6
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 15, 
+            "y": 7
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 6, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 8, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 11, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 13, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 8
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 8
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 9
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 9
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 9
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 10
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 10
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 10
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 10
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 11, 
+            "y": 10
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 10
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 10
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 16, 
+            "y": 10
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 17, 
+            "y": 10
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 11
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 11
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 11
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 11
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 15, 
+            "y": 11
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 12
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 5, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 6, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 7, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 8, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 9, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 10, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 11, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 12, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 13, 
+            "y": 12
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 12
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 14, 
+            "y": 12
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 13
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 14, 
+            "y": 13
+          }
+        ], 
+        "width": 19
+      },
+      {
+        "height": 4, 
+        "name": "smiley", 
+        "panels": [
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 1, 
+            "y": 0
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 0
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Wall", 
+            "x": 3, 
+            "y": 0
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 0, 
+            "y": 1
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Wall", 
+            "x": 2, 
+            "y": 1
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Window", 
+            "x": 1, 
+            "y": 2
+          }, 
+          {
+            "horizontal": false, 
+            "type": "Door", 
+            "x": 3, 
+            "y": 2
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 0, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 1, 
+            "y": 3
+          }, 
+          {
+            "horizontal": true, 
+            "type": "Door", 
+            "x": 2, 
+            "y": 3
+          }
+        ], 
+        "width": 4
+      }
+]
